@@ -79,14 +79,28 @@ body{
 }
 .opcion_index{
     margin:auto;
+    padding: .4rem 1rem;
     background-color: var(--primario);
     display: flex;
     justify-content: space-around;
-    align-items:center
+    align-items:center;
+    margin-bottom: 1rem;
    
 }
+.contenedor :last-child{
+   margin-bottom: 0;
+}
 .opcion_index__img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+}
+.opcion_index__texto{
+    margin: auto;
+    text-align: center;
+    color: var(--blanco);
+    max-width: 45%;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif !important;
 }
