@@ -2,6 +2,7 @@
 :root{
     --fondo-principal:#f7f7f7;
     --blanco:#fff;
+    --primario: #DA4453;
 
 }
 body{
@@ -56,6 +57,36 @@ body{
    font-weight: 700;
    font-family: "Source Sans Pro", sans-serif !important;
 }
+@media (min-width: 700px) {
+    .banner__contenido--titulo {
+        margin-top: 550px;
+    }
+  }
+.subtitulo{
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif !important;
+}
 
-
-
+.contenedor{
+    margin: auto;
+    max-width: 97%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1.5rem;
+}
+.opcion_index{
+    margin:auto;
+    background-color: var(--primario);
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+   
+}
+.opcion_index__img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
