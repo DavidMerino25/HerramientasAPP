@@ -15,7 +15,11 @@ body{
 .bordes{
     border-radius: 1rem;
 }
-
+.centrar{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
 .backgroud{
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,20 +125,28 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1rem;
-    
 }
+@media (min-width: 700px) {
+    .contenedor--grid {
+        grid-template-columns: repeat(3,1fr);
+    }
+  }
 .opcion__respiracion{
     margin: auto;
     padding: 1rem;
     width: 80%;
-}
-.opcion__respiracion a{
-    width: 100%;
-    height: 100%;
     text-decoration: none;
     color: var(--blanco);
-  
-    
+    line-height : 2px;
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.opcion__respiracion--titulo{
+    font-weight: 700;
+
+}
+.opcion__respiracion--tiempo{
+    font-size: .8rem;
 }
 .opcion__respiracion__img{
     width: 80px;
