@@ -48,6 +48,9 @@ body{
 .banner--index_respiracion {
     background-image: url(../img/respiracion-banner.png);
 }
+.banner--index__meditacion{
+    background-image: url(../img/banner-meditacion.jpg);
+}
 .banner__contenido{
     width: 100%;
     height: 100%;
@@ -78,7 +81,7 @@ body{
 
 .contenedor{
     margin: auto;
-    max-width: 92%; 
+    max-width: 90%; 
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 1.5rem;
@@ -89,7 +92,7 @@ body{
 }
 
 .opcion__index{
-    padding: .4rem 1rem;
+    padding: .5rem 1.5rem;
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -141,15 +144,31 @@ body{
     font-family: "Source Sans Pro", sans-serif !important;
 }
 
-.opcion__respiracion--titulo{
+.opcion__respiracion--titulo, .meditacion--titulo{
     font-weight: 700;
 
 }
-.opcion__respiracion--tiempo{
+.opcion__respiracion--tiempo, .meditacion--tiempo{
     font-size: .8rem;
 }
 .opcion__respiracion__img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+
+/* index de ejercicios de respiracion */
+.opcion__respiracion--texto{
+    margin: auto;
+    text-align: center;
+    color: var(--blanco);
+    max-width: 50%;
+    font-family: "Source Sans Pro", sans-serif !important;
+    line-height: 18px;
+}
+.meditacion--titulo{
+    margin-bottom: 2px;
+}
+.meditacion--tiempo{
+    margin-top: 0;
 }
