@@ -74,30 +74,32 @@ body{
 
 .contenedor{
     margin: auto;
-    max-width: 92%;
+    max-width: 92%; 
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 1.5rem;
 }
-.opcion_index{
+.opcion{
     margin:auto;
-    padding: .4rem 1rem;
     background-color: var(--primario);
+}
+
+.opcion__index{
+    padding: .4rem 1rem;
     display: flex;
     justify-content: space-around;
     align-items:center;
     margin-bottom: 1rem;
-   
 }
 .contenedor :last-child{
    margin-bottom: 0;
 }
-.opcion_index__img{
+.opcion__index__img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
-.opcion_index__texto{
+.opcion__index__texto{
     margin: auto;
     text-align: center;
     color: var(--blanco);
@@ -106,10 +108,37 @@ body{
     font-weight: 700;
     font-family: "Source Sans Pro", sans-serif !important;
 }
-.opcion_index--icono{
+.opcion__index--icono{
     font-size: 1.5rem;
 }
-.opcion_index a{
+.opcion__index a{
     text-decoration: none;
     color: var(--blanco);
+}
+
+/* Menú de ejercicios de respiracion */
+.contenedor--grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    
+}
+.opcion__respiracion{
+    margin: auto;
+    padding: 1rem;
+    width: 120px;
+    height: 120px;
+}
+.opcion__respiracion a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--blanco);
+  
+    
+}
+.opcion__respiracion__img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
