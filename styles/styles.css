@@ -186,13 +186,20 @@ body{
     text-align: center;
     margin-bottom: 2rem;
 }
-.recomendaciones_externas--icono{
-    width: 50px;
+.recomendaciones_externas--iconos a{
+    margin: auto;
+    text-decoration: none;
     margin-right: 1rem;
+    
 }
-.recomendaciones_externas--icono:last-child{
+.recomendaciones_externas--iconos a:last-child{
     margin-right: 0;
 }
+.recomendaciones_externas--icono{
+    width: 50px;
+    margin: auto;
+}
+
 .subtitulo--recomendaciones{
     font-size: 1.2rem;
     line-height: 30px;
