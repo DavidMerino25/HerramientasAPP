@@ -256,11 +256,59 @@ body{
 }
 .opcion__sonidos--img img{
     margin: auto;
-    width: 100px;
-    height:100px;
+    width: 80px;
+    height:80px;
     border-radius: 50%;
 }
 .meditacion--titulo{
     margin-top: 0;
 
+}
+.opcion__musica{
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    text-align: center;
+    color: var(--primario);
+    font-family: "Source Sans Pro", sans-serif !important;
+    margin-bottom: 0;
+}
+.meditacion--tiempo{
+    margin: 0;
+
+}
+.opcion__musica--button{
+    background: none;
+    padding: 0;
+    border: none;
+    color: var(--primario);
+}
+.opcion__musica--button:hover{
+    color: var(--primario);
+}
+.opcion__musica--button ion-icon {
+    margin: auto;
+    margin: 0;
+    font-size: 60px;
+}
+.opción--linea{
+    width: 90%;
+    margin-top: 0;
+    height: 0;
+    border: 0;
+    border: 1px solid rgba(244, 82, 98, 0.683);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.musica--titulo{
+    font-size: 1.2rem;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+.musica--tiempo{
+    font-weight: 700;
 }
