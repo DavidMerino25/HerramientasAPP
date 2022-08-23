@@ -3,6 +3,7 @@
     --fondo-principal:#f7f7f7;
     --blanco:#fff;
     --primario: #DA4453;
+    --gris: #6C6C6C;
 
 }
 body{
@@ -94,10 +95,10 @@ body{
     overflow-y: scroll;
 }
 .contenedor--overflow-x{
-    width: 95%;
+    width: 89%;
     margin: auto;
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
     overflow-x: scroll;
     border-radius: 20%;
 }
@@ -106,7 +107,7 @@ body{
     max-width: 88%;
     padding: 1rem;
     display: flex;
-    height: 150px;
+    height: 155px;
 
 }
 .contenedor--musica {
@@ -311,4 +312,13 @@ body{
 }
 .musica--tiempo{
     font-weight: 700;
+    color: var(--gris);
+}
+.subtitulo--sonidos{
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif !important;
+    margin-left: 1.2rem;
+    color: var(--gris);
 }
